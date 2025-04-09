@@ -1,0 +1,41 @@
+---
+import "../styles/main.sass";
+import conf from "../config/site.config.ts";
+import Header from "../components/cmpHead.astro";
+import Footer from "../components/cmpFoot.astro";
+
+let title;
+let description;
+
+if (Astro.props.frontmatter) {
+    const { frontmatter } = Astro.props;
+    title = frontmatter.title;
+    description = frontmatter.description ?? conf.description;
+} else {
+    title = Astro.props.title;
+    description = Astro.props.description ?? conf.description;
+}
+---
+
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>{title ? `${title}｜${conf.basetitle}` : conf.basetitle}</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@700&family=M+PLUS+1p:wght@700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <Header />
+        <main>
+            {title && (
+                <h1>{title}</h1>
+              )}
+            <slot />
+        </main>   
+        <Footer />
+    </body>
+</html> 

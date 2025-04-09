@@ -1,0 +1,17 @@
+---
+import headermenu from "../config/headermenu.config";
+---
+<header>
+    <div class="headsym">
+        内弁慶の立往生
+    </div>
+    <div class="headmenu">
+        <nav class="navbar">
+            <ul class="menu">
+                {Object.entries(headermenu).map(([label, url]) => (
+                <li><a href={url}>{label}</a></li>
+                ))}
+            </ul>
+        </nav>
+    </div>
+</header>

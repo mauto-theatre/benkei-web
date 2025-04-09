@@ -1,0 +1,92 @@
+* 
+  margin: 0
+  padding: 0
+  font-family: "Helvetica Neue", "Arial", "Hiragino Kaku Gothic ProN", "メイリオ", sans-serif 
+  box-sizing: border-box
+body
+  background-color: #ffe3e3
+
+//header
+.headsym
+    display: block
+    font-size: 25pt
+    text-align: center
+    padding-top: 10px
+    padding-bottom: 10px
+    margin: 0
+    font-family: "M PLUS 1p", sans-serif
+    font-weight: 700
+    color: #841228
+    background-color: #fefefe
+//menu
+.headmenu
+  background-color: #841228
+  color: white
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 8px 20px
+
+  nav
+    ul
+      list-style: none
+      display: flex
+
+      li
+        margin-left: 20px
+
+        a
+          font-family: "Kaisei Decol", serif
+          font-weight: 700
+          color: white
+          text-decoration: none
+          font-size: 20px
+          padding: 5px 10px
+          transition: background-color 0.3s
+
+          &:hover
+            background-color: #aa3355
+            border-radius: 4px
+@media (max-width: 768px)
+  .headmenu
+    flex-direction: column
+    text-align: center
+
+    nav
+      li
+        margin: 10px 0
+        gap: 20px
+//main
+main
+    width: 70%
+    margin: 0 auto
+    padding: 40px 50px
+    background-color: #fefefe
+    color: #181818
+    a
+      color: #4681ff
+    p
+      margin: 1em 0
+    .container
+      margin-top: 10px
+      margin-bottom: 10px
+    .img_container
+      display: flex
+      justify-content: center
+      gap: 8px
+      img
+        width: 100%
+        height: auto
+    .maxwidthimg
+      max-width: 100%
+@media (max-width: 768px)
+  main
+    width: 95%
+    .img_container
+      flex-flow: column
+
+//footer
+footer
+  padding-top: 20px
+  padding-bottom: 20px
+  text-align: center

@@ -3,10 +3,10 @@ layout: ../layouts/Base.astro
 ---
 <div class="hero-flyer">
 <img src="/flyer/benkei-no5-omote.webp" alt="" class="hero-flyer-img">
-<div class="hero-glass">
+</div>
+<div class="hero-brand">
 <img src="/src/logotype.png" alt="内弁慶の立往生" class="hero-logotype-img">
 <a href="/notes/theatre-no5-kitare" class="hero-next-link">つぎ</a>
-</div>
 </div>
 
 ## アバウト

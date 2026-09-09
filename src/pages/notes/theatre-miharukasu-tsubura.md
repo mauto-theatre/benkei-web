@@ -2,8 +2,9 @@
 layout: ../../layouts/Base.astro
 title: "みはるかす演劇展出展作品　内弁慶の立往生の我田引水公演２『つぶら、瞬き。』"
 ---
-<div class="img_container container">
-    <img src="/flyer/benkei-nonameb2-tsubura.webp">
+<div class="flyer-slider">
+<div class="flyer-slide"><img src="/flyer/benkei-nonameb2-tsubura.webp" alt="表"></div>
+<div class="flyer-slide"><img src="/flyer/benkei-nonameb2-tsubura-ura.webp" alt="裏"></div>
 </div>
 
 ## あらすじ

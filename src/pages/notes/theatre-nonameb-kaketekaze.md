@@ -2,8 +2,9 @@
 layout: ../../layouts/Base.astro
 title: "名前のない演劇祭B参加作品　我田引水公演『駆けて、風。』"
 ---
-<div class="img_container container">
-    <img src="/flyer/benkei-nonameb-1.webp">
+<div class="flyer-slider">
+<div class="flyer-slide"><img src="/flyer/benkei-nonameb-1.webp" alt="表"></div>
+<div class="flyer-slide"><img src="/flyer/benkei-nonameb-1-ura.webp" alt="裏"></div>
 </div>
  
 2025年8月14日（木）〜2025年8月16日（土）  

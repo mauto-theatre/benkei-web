@@ -2,8 +2,8 @@
 layout: ../../layouts/Base.astro
 title: "内弁慶の立往生のきっと４回めの本公演『アドバルーンよつれてって』"
 ---
-<div class="img_container container">
-    <img src="/flyer/benkei-no4-omote.webp">
+<div class="flyer-slider">
+<div class="flyer-slide"><img src="/flyer/benkei-no4-omote.webp" alt="表"></div>
 </div>
 
 ## あらすじ

@@ -2,9 +2,9 @@
 layout: ../../layouts/Base.astro
 title: "第一回本公演『THE BEE』"
 ---
-<div class="img_container container">
-    <img src="/flyer/benkei-no1-omote.webp">
-    <img src="/flyer/benkei-no1-ura.webp">
+<div class="flyer-slider">
+<div class="flyer-slide"><img src="/flyer/benkei-no1-omote.webp" alt="表"></div>
+<div class="flyer-slide"><img src="/flyer/benkei-no1-ura.webp" alt="裏"></div>
 </div>
  
 2023年11月17日（金）〜2023年11月19日（日）  

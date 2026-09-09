@@ -2,9 +2,9 @@
 layout: ../../layouts/Base.astro
 title: "３回めの本公演『ヤギの歩みに戻らない。』"
 ---
-<div class="img_container container">
-    <img src="/flyer/benkei-no3-omote.webp">
-    <img src="/flyer/benkei-no3-ura.webp">
+<div class="flyer-slider">
+<div class="flyer-slide"><img src="/flyer/benkei-no3-omote.webp" alt="表"></div>
+<div class="flyer-slide"><img src="/flyer/benkei-no3-ura.webp" alt="裏"></div>
 </div>
  
 2025年5月2日（金）〜2025年5月4日（日）  

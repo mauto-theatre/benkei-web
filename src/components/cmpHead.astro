@@ -11,11 +11,13 @@ import headermenu from "../config/headermenu.config";
             <span></span><span></span><span></span>
         </button>
         <nav class="navbar" id="mainnav">
-            <ul class="menu">
-                {Object.entries(headermenu).map(([label, url]) => (
-                <li><a href={url}>{label}</a></li>
-                ))}
-            </ul>
+            <div class="navbar-inner">
+                <ul class="menu">
+                    {Object.entries(headermenu).map(([label, url]) => (
+                    <li><a href={url}>{label}</a></li>
+                    ))}
+                </ul>
+            </div>
         </nav>
     </div>
 </header>

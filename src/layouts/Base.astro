@@ -19,11 +19,11 @@ if (Astro.props.frontmatter) {
     noindex = Astro.props.noindex ?? false;
 }
 
-let titlePrefix = "";
+let titlePrefixLines: string[] = [];
 let titleMain = title;
 const titleMatch = title?.match(/^(.*?)(『.*』)$/);
 if (titleMatch) {
-    titlePrefix = titleMatch[1];
+    titlePrefixLines = titleMatch[1].split("　").filter((line) => line.length > 0);
     titleMain = titleMatch[2];
 }
 ---
@@ -46,7 +46,13 @@ if (titleMatch) {
         <main>
             {title && (
                 <h1>
-                    {titlePrefix && <span class="title-prefix">{titlePrefix}</span>}
+                    {titlePrefixLines.length > 0 && (
+                        <span class="title-prefix">
+                            {titlePrefixLines.map((line) => (
+                                <span class="title-prefix-line">{line}</span>
+                            ))}
+                        </span>
+                    )}
                     <span class="title-main">{titleMain}</span>
                 </h1>
               )}

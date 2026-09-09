@@ -2,9 +2,9 @@
 layout: ../../layouts/Base.astro
 title: "第二回本公演『イヌの□から象牙は映えない。』"
 ---
-<div class="img_container container">
-    <img src="/flyer/benkei-no2-omote.webp">
-    <img src="/flyer/benkei-no2-ura.webp">
+<div class="flyer-slider">
+<div class="flyer-slide"><img src="/flyer/benkei-no2-omote.webp" alt="表"></div>
+<div class="flyer-slide"><img src="/flyer/benkei-no2-ura.webp" alt="裏"></div>
 </div>
  
 2024年10月4日（金）〜2024年10月6日（日）  

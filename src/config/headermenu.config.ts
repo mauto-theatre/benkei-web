@@ -3,8 +3,9 @@ const headermenu: Record<string, string> = {
     トップ: siteurl,
     つぎ: siteurl + "notes/theatre-no5-kitare",
     いままで: siteurl + "works",
-    コンタクト: siteurl + "contact",
-    X: "https://x.com/UTIBENKEI_ohjoh"
+    アバウト: siteurl + "#アバウト",
+    ニュース: siteurl + "#ニュース",
+    コンタクト: siteurl + "contact"
 };
 
 export default headermenu;

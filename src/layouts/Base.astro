@@ -6,33 +6,49 @@ import Footer from "../components/cmpFoot.astro";
 
 let title;
 let description;
+let noindex;
 
 if (Astro.props.frontmatter) {
     const { frontmatter } = Astro.props;
     title = frontmatter.title;
     description = frontmatter.description ?? conf.description;
+    noindex = frontmatter.noindex ?? false;
 } else {
     title = Astro.props.title;
     description = Astro.props.description ?? conf.description;
+    noindex = Astro.props.noindex ?? false;
+}
+
+let titlePrefix = "";
+let titleMain = title;
+const titleMatch = title?.match(/^(.*?)(『.*』)$/);
+if (titleMatch) {
+    titlePrefix = titleMatch[1];
+    titleMain = titleMatch[2];
 }
 ---
 
 <!DOCTYPE html>
 <html lang="ja">
     <head>
+        {noindex && <meta name="robots" content="noindex" />}
+        <link rel="icon" href="/src/fav32.png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
         <title>{title ? `${title}｜${conf.basetitle}` : conf.basetitle}</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@700&family=M+PLUS+1p:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet">
 
     </head>
     <body>
         <Header />
         <main>
             {title && (
-                <h1>{title}</h1>
+                <h1>
+                    {titlePrefix && <span class="title-prefix">{titlePrefix}</span>}
+                    <span class="title-main">{titleMain}</span>
+                </h1>
               )}
             <slot />
         </main>   

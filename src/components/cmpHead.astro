@@ -1,12 +1,16 @@
 ---
 import headermenu from "../config/headermenu.config";
 ---
-<header>
-    <div class="headsym">
-        内弁慶の立往生
-    </div>
-    <div class="headmenu">
-        <nav class="navbar">
+<header class="site-header">
+    <div class="header-row">
+        <a href="/" class="brand sugoilink">
+            <img src="/src/icon.png" alt="" class="brand-icon">
+            <img src="/src/logotype.png" alt="内弁慶の立往生" class="brand-logotype">
+        </a>
+        <button type="button" class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainnav" aria-label="メニューを開く">
+            <span></span><span></span><span></span>
+        </button>
+        <nav class="navbar" id="mainnav">
             <ul class="menu">
                 {Object.entries(headermenu).map(([label, url]) => (
                 <li><a href={url}>{label}</a></li>
@@ -15,3 +19,22 @@ import headermenu from "../config/headermenu.config";
         </nav>
     </div>
 </header>
+
+<script>
+    const toggle = document.getElementById("menuToggle");
+    const nav = document.getElementById("mainnav");
+
+    toggle?.addEventListener("click", () => {
+        const isOpen = nav?.classList.toggle("is-open");
+        toggle.classList.toggle("is-open", isOpen);
+        toggle.setAttribute("aria-expanded", String(!!isOpen));
+    });
+
+    nav?.querySelectorAll("a").forEach((link) => {
+        link.addEventListener("click", () => {
+            nav.classList.remove("is-open");
+            toggle?.classList.remove("is-open");
+            toggle?.setAttribute("aria-expanded", "false");
+        });
+    });
+</script>

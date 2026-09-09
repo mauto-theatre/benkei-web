@@ -41,8 +41,8 @@ title: "３回めの本公演『ヤギの歩みに戻らない。』"
 音響　譜久島みずほ（劇団三日月座・劇団たつとり）・桜木カコ  
 照明　今村聡志・桜木カコ  
 制作　平野晴哉  
-広報　今野偉吹（人畜無蓋）  
-協賛　株式会社セカツク（[https://sekatsuku.jp](https://sekatsuku.jp)）
+広報　今野偉吹（人畜無蓋）・石垣統万  
+協賛　株式会社セカツク（[https://sekatsuku.jp/recruit_lp01/](https://sekatsuku.jp/recruit_lp01/)）
 ## 公演日程
 2025年5月2日（金）〜2025年5月4日（日）
  
@@ -74,5 +74,6 @@ U19割は19歳以下の方がご利用いただける割引です。当日、身
  
 中野駅北口から徒歩8分
 ## お問い合わせ
-benkei.theatre.no2[at]gmail.com 
+benkei.theatre.no2 [at] gmail.com
+ 
 お問い合わせはメールにてこちらまでお願いします。

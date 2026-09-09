@@ -1,12 +1,75 @@
 ---
 layout: ../layouts/Base.astro
-title: "公演記録"
+title: "いままで"
 ---
+<a class="work-card" href="/notes/theatre-no1-thebee">
+<div class="work-card-thumb">
+<img src="/flyer/benkei-no1-omote.webp" alt="">
+</div>
+<div class="work-card-body">
+
 ## 第一回本公演『THE BEE』
-本人曰く平凡なサラリーマン、井戸がある日帰宅すると、自宅が警察に囲まれていた。百百山（どどやま）警部が言うことには、凶悪犯の小古呂（おごろ）が脱獄し、井戸の妻子を人質に立てこもっているらしい。井戸は交渉のため力を借りようと小古呂の妻の元を訪ねるが、彼女にキッパリと断られてしまう。すると井戸は突如豹変。思いもよらぬ行動をとることに。
- 
-[詳細はこちら](/notes/theatre-no1-thebee) 
+2023年11月17日（金）〜19日（日）
+
+</div>
+</a>
+
+<a class="work-card" href="/notes/theatre-no2-inukuchi">
+<div class="work-card-thumb">
+<img src="/flyer/benkei-no2-omote.webp" alt="">
+</div>
+<div class="work-card-body">
+
 ## 第二回本公演『イヌの□から象牙は映えない。』
-8月5日、たぶん世界は滅んだ。訳も分からず「ここ」に逃げてきた４人、彼らは習慣として日記を書き始める。一週間も経ったある日、並行世界で書かれた日記が見つかる。「ここ」は時空を超え繋がっていたのだ。彼らは考える。もしかしたらこれで、私たちの世界がどうなったのかも分かるのではないかと。そこで４人は並行世界との交換日記をはじめる。徐々に全容が明らかになっていくなか、次第にある問題が発生する。
- 
-[詳細はこちら](/notes/theatre-no2-inukuchi) 
+2024年10月4日（金）〜6日（日）
+
+</div>
+</a>
+
+<a class="work-card" href="/notes/theatre-no3-yaginoayumi">
+<div class="work-card-thumb">
+<img src="/flyer/benkei-no3-omote.webp" alt="">
+</div>
+<div class="work-card-body">
+
+## ３回めの本公演『ヤギの歩みに戻らない。』
+2025年5月2日（金）〜4日（日）
+
+</div>
+</a>
+
+<a class="work-card" href="/notes/theatre-nonameb-kaketekaze">
+<div class="work-card-thumb">
+<img src="/flyer/benkei-nonameb-1.webp" alt="">
+</div>
+<div class="work-card-body">
+
+## 我田引水公演１『駆けて、風。』
+2025年8月14日（木）〜16日（土）
+
+</div>
+</a>
+
+<a class="work-card" href="/notes/theatre-miharukasu-tsubura">
+<div class="work-card-thumb">
+<img src="/flyer/benkei-nonameb2-tsubura.webp" alt="">
+</div>
+<div class="work-card-body">
+
+## 我田引水公演２『つぶら、瞬き。』
+2025年9月19日（金）〜21日（日）
+
+</div>
+</a>
+
+<a class="work-card" href="/notes/theatre-no4-adoballoon">
+<div class="work-card-thumb">
+<img src="/flyer/benkei-no4-omote.webp" alt="">
+</div>
+<div class="work-card-body">
+
+## ４回めの本公演『アドバルーンよつれてって』
+2026年2月27日（金）〜3月1日（日）
+
+</div>
+</a>

@@ -331,10 +331,19 @@ main
     margin: 0 auto
 
     p
-      font-size: 17px
+      font-size: clamp(10px, 3.1vw, 17px)
+      white-space: nowrap
 
     h3
-      font-size: 18px
+      font-size: clamp(10px, 3.1vw, 18px)
+      white-space: nowrap
+
+  .breadcrumb-back
+    margin-top: 56px
+    font-size: 13px
+
+    a
+      color: var(--ink-soft)
 
   .work-card
     display: flex

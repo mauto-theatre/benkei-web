@@ -29,3 +29,5 @@ STスポット
 舞台　平岡凜太郎  
 宣伝　石垣統万 / 佐野晃基  
 制作　名田美律
+
+<p class="breadcrumb-back"><a href="/works">いままで</a></p>

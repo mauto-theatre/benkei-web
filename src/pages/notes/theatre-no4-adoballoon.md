@@ -49,3 +49,5 @@ title: "内弁慶の立往生のきっと４回めの本公演『アドバルー
 <div class="embed-frame">
 <iframe src="https://www.youtube.com/embed/kS7F52WNTNA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+<p class="breadcrumb-back"><a href="/works">いままで</a></p>

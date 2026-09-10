@@ -13,13 +13,19 @@ layout: ../layouts/Base.astro
 <img src="/gallery/no3/8.webp" alt="" class="hero-photo">
 </div>
 
+<div class="home-content">
+
 ## アバウト
 横浜国立大学で演劇をしていた人たちからできた、よく演劇をする団体です。  
 「たくさん動いて、いっぱいしゃべる」演劇をめざして、身体と言葉のサイエンス・フィクションについて考えます。
 
+</div>
+
 <div class="hero-photos">
 <img src="/gallery/nonameb/4.webp" alt="" class="hero-photo">
 </div>
+
+<div class="home-content">
 
 ## ニュース
 ### 東京舞台芸術祭2026 Open Call Programs参加　確かに５回めの本公演『きたれ！』ご予約受付中です！
@@ -28,3 +34,5 @@ layout: ../layouts/Base.astro
 
 [詳細はこちら](/notes/theatre-no5-kitare)  
 [ご予約はこちら](https://t.co/iUVYvhfUk3)
+
+</div>

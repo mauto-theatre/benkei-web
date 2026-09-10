@@ -16,6 +16,11 @@ layout: ../layouts/Base.astro
 ## アバウト
 横浜国立大学で演劇をしていた人たちからできた、よく演劇をする団体です。  
 「たくさん動いて、いっぱいしゃべる」演劇をめざして、身体と言葉のサイエンス・フィクションについて考えます。
+
+<div class="hero-photos">
+<img src="/gallery/nonameb/4.webp" alt="" class="hero-photo">
+</div>
+
 ## ニュース
 ### 東京舞台芸術祭2026 Open Call Programs参加　確かに５回めの本公演『きたれ！』ご予約受付中です！
 2026年10月16日（金）～10月18日（日）  

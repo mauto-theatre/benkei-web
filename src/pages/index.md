@@ -6,7 +6,7 @@ layout: ../layouts/Base.astro
 </div>
 <div class="hero-brand">
 <img src="/src/logotype.png" alt="内弁慶の立往生" class="hero-logotype-img">
-<a href="/notes/theatre-no5-kitare" class="hero-next-link"><span class="hero-next-text">▶︎つぎの舞台</span><span class="hero-next-spacer" aria-hidden="true"></span></a>
+<a href="/notes/theatre-no5-kitare" class="hero-next-link"><span class="hero-next-arrow" aria-hidden="true">▶︎</span><span class="hero-next-text">つぎの舞台</span><span class="hero-next-spacer" aria-hidden="true"></span></a>
 </div>
 
 <div class="hero-photos">

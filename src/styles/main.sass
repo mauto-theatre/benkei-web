@@ -130,9 +130,9 @@ body
     .navbar-inner
       min-height: 0
       overflow: hidden
-      background-color: var(--glass-bg)
-      -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(160%)
-      backdrop-filter: blur(var(--glass-blur)) saturate(160%)
+      background-color: rgba(255, 255, 255, 0.94)
+      -webkit-backdrop-filter: blur(28px) saturate(160%)
+      backdrop-filter: blur(28px) saturate(160%)
 
     ul.menu
       flex-direction: column
@@ -159,15 +159,12 @@ main
     margin-bottom: 24px
 
     .page-eyebrow
-      display: inline-block
-      font-weight: 700
-      font-size: 12px
-      letter-spacing: 0.16em
-      color: var(--ink-faint)
-      background-color: var(--surface)
-      padding: 4px 10px
-      border-radius: 999px
-      margin-bottom: 14px
+      display: block
+      font-weight: 900
+      font-size: clamp(20px, 4vw, 26px)
+      letter-spacing: 0.01em
+      color: var(--ink)
+      margin-bottom: 10px
 
     .title-prefix
       display: block
@@ -279,7 +276,7 @@ main
     flex-direction: column
     align-items: center
     gap: 16px
-    margin: 0 auto 72px
+    margin: 0 auto 88px
     text-align: center
 
   .hero-photos
@@ -287,7 +284,7 @@ main
     flex-direction: column
     align-items: center
     gap: 32px
-    margin: 0 auto 80px
+    margin: 0 auto 96px
 
     .hero-photo
       width: 100%

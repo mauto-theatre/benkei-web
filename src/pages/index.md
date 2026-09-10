@@ -11,8 +11,6 @@ layout: ../layouts/Base.astro
 
 <div class="hero-photos">
 <img src="/gallery/no3/8.webp" alt="" class="hero-photo">
-<img src="/gallery/nonameb/4.webp" alt="" class="hero-photo">
-<img src="/gallery/no4/3.webp" alt="" class="hero-photo">
 </div>
 
 ## アバウト

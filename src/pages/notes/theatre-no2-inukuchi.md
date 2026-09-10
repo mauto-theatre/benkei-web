@@ -58,3 +58,12 @@ U24割は24歳以下の方がご利用いただける割引です。当日、身
 エクセル早稲田地下1階
  
 東京メトロ東西線早稲田駅から徒歩5分・神楽坂駅から徒歩10分
+## 写真
+<div class="flyer-slider">
+<div class="flyer-slide"><img src="/gallery/no2/1.webp" alt=""></div>
+<div class="flyer-slide"><img src="/gallery/no2/2.webp" alt=""></div>
+<div class="flyer-slide"><img src="/gallery/no2/3.webp" alt=""></div>
+<div class="flyer-slide"><img src="/gallery/no2/4.webp" alt=""></div>
+<div class="flyer-slide"><img src="/gallery/no2/5.webp" alt=""></div>
+<div class="flyer-slide"><img src="/gallery/no2/6.webp" alt=""></div>
+</div>

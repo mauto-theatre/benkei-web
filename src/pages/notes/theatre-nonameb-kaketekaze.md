@@ -67,3 +67,14 @@ JR・東武東上線・西武池袋線・東京メトロ丸ノ内線・有楽町
 benkei.theatre.no2 [at] gmail.com
  
 お問い合わせはメールにてこちらまでお願いします。
+## 写真
+<div class="flyer-slider">
+<div class="flyer-slide"><img src="/gallery/nonameb/1.webp" alt=""></div>
+<div class="flyer-slide"><img src="/gallery/nonameb/2.webp" alt=""></div>
+<div class="flyer-slide"><img src="/gallery/nonameb/3.webp" alt=""></div>
+<div class="flyer-slide"><img src="/gallery/nonameb/4.webp" alt=""></div>
+<div class="flyer-slide"><img src="/gallery/nonameb/5.webp" alt=""></div>
+<div class="flyer-slide"><img src="/gallery/nonameb/6.webp" alt=""></div>
+<div class="flyer-slide"><img src="/gallery/nonameb/7.webp" alt=""></div>
+<div class="flyer-slide"><img src="/gallery/nonameb/8.webp" alt=""></div>
+</div>

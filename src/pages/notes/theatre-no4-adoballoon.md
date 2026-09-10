@@ -35,3 +35,11 @@ title: "内弁慶の立往生のきっと４回めの本公演『アドバルー
 
 ## 劇場
 カフェムリウイ 屋上劇場
+## 写真
+<div class="flyer-slider">
+<div class="flyer-slide"><img src="/gallery/no4/1.webp" alt=""></div>
+<div class="flyer-slide"><img src="/gallery/no4/2.webp" alt=""></div>
+<div class="flyer-slide"><img src="/gallery/no4/3.webp" alt=""></div>
+<div class="flyer-slide"><img src="/gallery/no4/4.webp" alt=""></div>
+<div class="flyer-slide"><img src="/gallery/no4/5.webp" alt=""></div>
+</div>

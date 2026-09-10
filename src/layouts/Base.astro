@@ -57,7 +57,36 @@ if (titleMatch) {
                 </h1>
               )}
             <slot />
-        </main>   
+        </main>
         <Footer />
     </body>
-</html> 
+</html>
+
+<script>
+    document.querySelectorAll(".flyer-slider").forEach((slider) => {
+        const slides = slider.querySelectorAll(".flyer-slide");
+        if (slides.length < 2) return;
+
+        const counter = document.createElement("div");
+        counter.className = "flyer-counter";
+        slider.insertAdjacentElement("afterend", counter);
+
+        const update = () => {
+            const width = slider.clientWidth || 1;
+            const index = Math.round(slider.scrollLeft / width) + 1;
+            const clamped = Math.min(Math.max(index, 1), slides.length);
+            counter.textContent = `${clamped} / ${slides.length}`;
+        };
+
+        update();
+        let ticking = false;
+        slider.addEventListener("scroll", () => {
+            if (ticking) return;
+            ticking = true;
+            requestAnimationFrame(() => {
+                update();
+                ticking = false;
+            });
+        }, { passive: true });
+    });
+</script>

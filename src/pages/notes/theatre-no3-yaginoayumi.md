@@ -77,3 +77,14 @@ U19割は19歳以下の方がご利用いただける割引です。当日、身
 benkei.theatre.no2 [at] gmail.com
  
 お問い合わせはメールにてこちらまでお願いします。
+## 写真
+<div class="flyer-slider">
+<div class="flyer-slide"><img src="/gallery/no3/1.webp" alt=""></div>
+<div class="flyer-slide"><img src="/gallery/no3/2.webp" alt=""></div>
+<div class="flyer-slide"><img src="/gallery/no3/3.webp" alt=""></div>
+<div class="flyer-slide"><img src="/gallery/no3/4.webp" alt=""></div>
+<div class="flyer-slide"><img src="/gallery/no3/5.webp" alt=""></div>
+<div class="flyer-slide"><img src="/gallery/no3/6.webp" alt=""></div>
+<div class="flyer-slide"><img src="/gallery/no3/7.webp" alt=""></div>
+<div class="flyer-slide"><img src="/gallery/no3/8.webp" alt=""></div>
+</div>

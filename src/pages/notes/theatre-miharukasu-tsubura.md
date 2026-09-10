@@ -35,3 +35,9 @@ title: "みはるかす演劇展出展作品　内弁慶の立往生の我田引
 
 ## 劇場
 Art Center New
+## 写真
+<div class="flyer-slider">
+<div class="flyer-slide"><img src="/gallery/nonameb2/1.webp" alt=""></div>
+<div class="flyer-slide"><img src="/gallery/nonameb2/2.webp" alt=""></div>
+<div class="flyer-slide"><img src="/gallery/nonameb2/3.webp" alt=""></div>
+</div>

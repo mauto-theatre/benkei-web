@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/Base.astro
 title: "東京舞台芸術祭2026 Open Call Programs参加作品　内弁慶の立往生の確かに５回めの本公演『きたれ！』"
+eyebrow: "つぎ"
 ---
 <div class="flyer-slider">
 <div class="flyer-slide"><img src="/flyer/benkei-no5-omote.webp" alt="表"></div>

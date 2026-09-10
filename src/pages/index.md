@@ -6,7 +6,13 @@ layout: ../layouts/Base.astro
 </div>
 <div class="hero-brand">
 <img src="/src/logotype.png" alt="内弁慶の立往生" class="hero-logotype-img">
-<a href="/notes/theatre-no5-kitare" class="hero-next-link">つぎの舞台</a>
+<a href="/notes/theatre-no5-kitare" class="hero-next-link">▶︎つぎの舞台</a>
+</div>
+
+<div class="hero-photos">
+<img src="/gallery/no3/8.webp" alt="" class="hero-photo">
+<img src="/gallery/nonameb/4.webp" alt="" class="hero-photo">
+<img src="/gallery/no4/3.webp" alt="" class="hero-photo">
 </div>
 
 ## アバウト

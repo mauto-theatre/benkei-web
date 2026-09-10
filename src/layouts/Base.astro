@@ -7,16 +7,19 @@ import Footer from "../components/cmpFoot.astro";
 let title;
 let description;
 let noindex;
+let eyebrow;
 
 if (Astro.props.frontmatter) {
     const { frontmatter } = Astro.props;
     title = frontmatter.title;
     description = frontmatter.description ?? conf.description;
     noindex = frontmatter.noindex ?? false;
+    eyebrow = frontmatter.eyebrow;
 } else {
     title = Astro.props.title;
     description = Astro.props.description ?? conf.description;
     noindex = Astro.props.noindex ?? false;
+    eyebrow = Astro.props.eyebrow;
 }
 
 let titlePrefixLines: string[] = [];
@@ -46,6 +49,7 @@ if (titleMatch) {
         <main>
             {title && (
                 <h1>
+                    {eyebrow && <span class="page-eyebrow">{eyebrow}</span>}
                     {titlePrefixLines.length > 0 && (
                         <span class="title-prefix">
                             {titlePrefixLines.map((line) => (

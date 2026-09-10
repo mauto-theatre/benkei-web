@@ -88,3 +88,8 @@ benkei.theatre.no2 [at] gmail.com
 <div class="flyer-slide"><img src="/gallery/no3/7.webp" alt=""></div>
 <div class="flyer-slide"><img src="/gallery/no3/8.webp" alt=""></div>
 </div>
+
+## 映像
+<div class="embed-frame">
+<iframe src="https://www.youtube.com/embed/c_FWInrXwZ0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

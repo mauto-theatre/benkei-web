@@ -50,5 +50,12 @@ eyebrow: "つぎ"
 ## 劇場
 スタジオ空洞
 
+〒171-0014  
+東京都豊島区池袋3-60-5 地下1階
+
+<div class="embed-frame">
+<iframe src="https://www.google.com/maps?q=東京都豊島区池袋3-60-5+スタジオ空洞&output=embed" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+</div>
+
 ## ご予約
 [ご予約はこちら（団体扱い）](https://t.co/iUVYvhfUk3)

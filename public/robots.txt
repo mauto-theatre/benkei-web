@@ -3,4 +3,5 @@ Allow: /
 Disallow: /special/
 Disallow: /2/
 
+Sitemap: https://benkei-web.pages.dev/sitemap.xml
 Sitemap: https://benkei-web.pages.dev/sitemap-index.xml

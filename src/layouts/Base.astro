@@ -41,10 +41,17 @@ if (titleMatch) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
         <title>{title ? `${title}｜${conf.basetitle}` : conf.basetitle}</title>
+        <meta name="description" content={description} />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet">
 
+        <meta property="og:site_name" content={conf.basetitle} />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={title ? `${title}｜${conf.basetitle}` : conf.basetitle} />
+        <meta property="og:description" content={description} />
+        <meta property="og:url" content={new URL(Astro.url.pathname, conf.url)} />
+        <meta name="twitter:card" content="summary" />
     </head>
     <body>
         <Header />

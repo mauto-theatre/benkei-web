@@ -44,6 +44,7 @@ layout: ../layouts/Base.astro
 <div class="elfsight-app-b480e04f-d2c7-4bd9-a24a-1dc68801e41c" data-elfsight-app-lazy></div>
 </div>
 
+表示されない場合は、X で直接ご覧ください。  
 [@UTIBENKEI_ohjoh](https://x.com/UTIBENKEI_ohjoh)
 
 </div>

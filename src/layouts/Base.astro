@@ -52,6 +52,7 @@ if (titleMatch) {
         <meta property="og:description" content={description} />
         <meta property="og:url" content={new URL(Astro.url.pathname, conf.url)} />
         <meta name="twitter:card" content="summary" />
+        {Astro.url.pathname === "/" && (<script type="application/ld+json" set:html={JSON.stringify({"@context":"https://schema.org","@type":"WebSite","name":conf.basetitle,"alternateName":["内弁慶","UTIBENKEI"],"url":conf.url})} />)}
     </head>
     <body>
         <Header />

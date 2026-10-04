@@ -37,4 +37,11 @@ layout: ../layouts/Base.astro
 [詳細はこちら](/notes/theatre-no5-kitare)  
 [ご予約はこちら](https://t.co/iUVYvhfUk3)
 
+## 最新の投稿
+
+<div class="x-timeline">
+<a class="twitter-timeline" data-height="560" data-chrome="noheader nofooter noborders transparent" data-dnt="true" data-lang="ja" href="https://x.com/UTIBENKEI_ohjoh?ref_src=twsrc%5Etfw">@UTIBENKEI_ohjoh さんの投稿</a>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
 </div>

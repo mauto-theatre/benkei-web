@@ -37,9 +37,13 @@ layout: ../layouts/Base.astro
 [詳細はこちら](/notes/theatre-no5-kitare)  
 [ご予約はこちら](https://t.co/iUVYvhfUk3)
 
-## 最新の情報
+## 最新の投稿
 
-公演の最新情報は X で発信しています。  
+<div class="x-timeline">
+<script src="https://elfsightcdn.com/platform.js" async></script>
+<div class="elfsight-app-b480e04f-d2c7-4bd9-a24a-1dc68801e41c" data-elfsight-app-lazy></div>
+</div>
+
 [@UTIBENKEI_ohjoh](https://x.com/UTIBENKEI_ohjoh)
 
 </div>
